@@ -1,0 +1,125 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+#top-ad {
+  margin-bottom: 20px;
+}
+
+#feature {
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+#mini {
+  padding-top: 50px;
+}
+
+#feature-with-popular {
+  margin-bottom: 15px;
+}
+
+.img-responsive {
+  border-radius: 3px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*.mini-on {
+  background-color: #DFEAED;
+  border-radius: 8px;
+  padding: 10px;
+}*/
+
+/*.mini-off {
+  background-color: #D7EFF7;
+  border-radius: 8px;
+  padding: 10px;
+}*/
+
+.popular {
+ /* margin-top: 30px;*/
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+
+hr.break {
+  height: 5px;
+  border: 0;
+  box-shadow: 0 5px 5px -5px #8c8b8b inset;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+
+/*Flexbox footer*/
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+/*Index page*/
+footer {
+  height: 80px;
+  background-color: gray;
+}
+
+.side-column {
+  margin-top: -30px;
+}
+
+/*Article pages*/
+.article-subheading {
+  text-align: justify;
+}
+
+.caption {
+  color: black;
+}
+
+
+}
+.mini-header {
+  padding-bottom: 10px;
+}
+
+h5.mini-info a {
+  vertical-align: top;
+  }
+
+.mini-info-text {
+  vertical-align: top;
+  margin-top: 45px;
+}
+
+h5.mini-article {
+  display: inline;
+}
