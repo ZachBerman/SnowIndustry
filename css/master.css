@@ -10,6 +10,19 @@ body {
     padding: 0 15px;
 }
 
+.navbar-inverse {
+  background-color: black;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white; 
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  text-decoration: underline;
+}
+
 #top-ad {
   margin-bottom: 20px;
 }
@@ -29,10 +42,6 @@ body {
 
 .img-responsive {
   border-radius: 3px;
-}
-
-footer {
-  margin-top: 50px;
 }
 
 li {
@@ -88,13 +97,20 @@ hr.break {
 
 /*Index page*/
 footer {
-  height: 80px;
+  height: 120px;
   background-color: gray;
+  margin-top: 50px;
 }
 
 .side-column {
   margin-top: -30px;
 }
+
+
+
+
+
+
 
 /*Article pages*/
 .article-subheading {
